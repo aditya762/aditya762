@@ -85,7 +85,7 @@ code by aditya762
 </div>-->
 <br>
 <div align="center">
-  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=aditya762&theme=transparent&hide_border=true&border_radius=5&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" /></a>
+  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=aditya762&theme=radical&hide_border=true" alt="GitHub Streak" /></a>
 <p align="center">
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aditya762&theme=chartreuse_dark)
