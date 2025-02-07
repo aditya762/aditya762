@@ -25,8 +25,7 @@
   ### 🏅 GitHub Trophies  
   <img src="https://github-profile-trophy.vercel.app/?username=aditya762&theme=onedark&row=1&column=7&margin-w=15" />
 
-  ### 🔥 Longest Active Streak  
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aditya762&theme=tokyonight&hide_border=true" width="400" />
+  
 
 </div>
 
