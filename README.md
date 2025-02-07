@@ -25,8 +25,6 @@
   ### 🏅 GitHub Trophies  
   <img src="https://github-profile-trophy.vercel.app/?username=aditya762&theme=onedark&row=1&column=7&margin-w=15" />
 
-  
-
 </div>
 
 ---
@@ -34,6 +32,13 @@
 ## 📌 Most Used Languages  
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aditya762&layout=compact&theme=tokyonight&hide_border=true" width="400" />
+</p>
+
+---
+
+## 📊 3D Contribution Metrics  
+<p align="center">
+  <img src="https://github.com/aditya762/aditya762/blob/main/github-metrics.svg" width="800"/>
 </p>
 
 ---
@@ -50,8 +55,6 @@
   <img src="https://raw.githubusercontent.com/aditya762/aditya762/main/assets/github-contribution-grid-snake.svg" />
 </p>
 
-
-
 ---
 
 ## 📫 Connect With Me  
@@ -61,7 +64,3 @@
 
 ---
 
-### 🚀 **How to Add the Snake Animation?**
-1. Create a **new branch** named `output`:  
-   ```sh
-   git checkout -b output
