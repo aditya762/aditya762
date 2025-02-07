@@ -21,11 +21,11 @@ jobs:
           github_user_name: aditya762
           outputs: dist/github-contribution-grid-snake.svg
 
-       - name: Move Generated Snake
-  run: |
-    sudo mkdir -p assets
-    sudo mv dist/github-contribution-grid-snake.svg assets/github-contribution-grid-snake.svg
-    sudo chmod 777 assets/github-contribution-grid-snake.svg  # Grant full permissions
+      - name: Move Generated Snake
+        run: |
+          sudo mkdir -p assets
+          sudo mv dist/github-contribution-grid-snake.svg assets/github-contribution-grid-snake.svg
+          sudo chmod 777 assets/github-contribution-grid-snake.svg  # Grant full permissions
 
 
       - name: Commit and Push Changes
