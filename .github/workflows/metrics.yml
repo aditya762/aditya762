@@ -1,0 +1,25 @@
+name: Generate Metrics
+
+on:
+  schedule: 
+    - cron: "0 0 * * *"  # Runs daily at midnight UTC
+  workflow_dispatch:
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: "repositories"
+          config_timezone: "Asia/Kolkata"  # Change this to your timezone
+          plugin_languages: yes
+          plugin_languages_ignored: "Jupyter Notebook"
+          plugin_languages_colors: github
+          plugin_contributors: yes
+          plugin_activity: yes
+          plugin_achievements: yes
+          plugin_lines: yes
