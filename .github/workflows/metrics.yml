@@ -13,6 +13,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }} # Ensure this secret exists in GitHub
+          user: aditya762 # Your GitHub username
           base: header, activity, community
           config_timezone: Asia/Kolkata
           repositories_affiliations: owner, collaborator
