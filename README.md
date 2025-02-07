@@ -47,8 +47,9 @@
 
 ## 🐍 Snake Eating Contribution Graph  
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aditya762/aditya762/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/aditya762/aditya762/main/assets/github-contribution-grid-snake.svg" />
 </p>
+
 
 ---
 
