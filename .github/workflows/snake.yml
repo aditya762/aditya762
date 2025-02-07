@@ -6,7 +6,7 @@ on:
   workflow_dispatch:  # Allows manual execution
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -18,8 +18,12 @@ jobs:
           github_user_name: aditya762
           outputs: dist/github-contribution-grid-snake.svg
 
-      - name: Upload Snake Animation
-        uses: actions/upload-artifact@v3
-        with:
-          name: snake-animation
-          path: dist/github-contribution-grid-snake.svg
+      - name: Push Generated Snake
+        run: |
+          mkdir -p assets
+          mv dist/github-contribution-grid-snake.svg assets/
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "github-actions@github.com"
+          git add assets/github-contribution-grid-snake.svg
+          git commit -m "🐍 Update Snake Animation"
+          git push
